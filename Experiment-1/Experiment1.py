@@ -1,9 +1,11 @@
-import matplotlib.pyplot as plt  
+import pprint
+
+import matplotlib.pyplot as plt
 import matplotlib.image as img 
 import os
 import numpy as np
 
-def create_database(train_database_path='Experiment-1/TrainDatabase/'):
+def create_database(train_database_path='TrainDatabase/'):
     train_number = 0
     ls = os.listdir(train_database_path)
     for i in ls:
@@ -12,7 +14,7 @@ def create_database(train_database_path='Experiment-1/TrainDatabase/'):
 
     temp_array = []
     for i in range(1, train_number + 1):
-        train_image_path = 'Experiment-1/TrainDatabase/' + str(i) + '.jpg'
+        train_image_path = 'TrainDatabase/' + str(i) + '.jpg'
         train_image = img.imread(train_image_path)
         one_d_train_image = np.reshape(np.array(train_image), (-1, 1), order="F")
         temp_array.append(one_d_train_image)
@@ -64,17 +66,17 @@ def recognition(test_image, mean_of_train_database, eigen_faces, centered_image_
     return output_name
 
 def main():
-    image_order = input('Enter test image name (a number between 1 to 10, q to quit): ')
+    image_order = input('Enter test image name (a number between 1 to 11, q to quit): ')
     if image_order == 'q':
         quit()
     num = int(image_order)
-    while num < 1 or num > 10:
+    while num < 1 or num > 11:
         print('Illegal input,please input again')
-        image_order = input('Enter test image name (a number between 1 to 10, q to quit): ')
+        image_order = input('Enter test image name (a number between 1 to 11, q to quit): ')
         if image_order == 'q':
             quit()
         num = int(image_order)
-    test_image_path = 'Experiment-1/TestDatabase/' + str(image_order) + '.jpg'
+    test_image_path = 'TestDatabase/' + str(image_order) + '.jpg'
     test_image = img.imread(test_image_path)
 
     plt.imshow(test_image)
@@ -86,13 +88,13 @@ def main():
     mean_of_train_database, eigen_faces, centered_image_vectors = eigen_face_core(one_d_train_image_all_set)
     output_name = recognition(test_image, mean_of_train_database, eigen_faces, centered_image_vectors)
 
-    selected_image = 'Experiment-1/TrainDatabase/' + output_name
+    selected_image = 'TrainDatabase/' + output_name
     selected_image = img.imread(selected_image)
 
     plt.imshow(selected_image)
     plt.axis('off')
     plt.title('Equivalent Image')
-plt.show()
+    plt.show()
 
 if __name__ == '__main__':
     while 1:

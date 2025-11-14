@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c285eeb-315d-43c3-98b7-d5c06bbe7be4" name="Changes" comment="Change File Name">
-      <change afterPath="$PROJECT_DIR$/Experiment-1/Result/Equivalent01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-1/Result/Input01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-1/TestDatabase/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-1/TrainDatabase/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-1/TrainDatabase/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-2/Experiment2-Complete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-2/Experiment2-EditVersion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-2/Experiment2-Original.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-2/ShopCT.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment-1/Experiment1.py" afterDir="false" />
-    </list>
+    <list default="true" id="2c285eeb-315d-43c3-98b7-d5c06bbe7be4" name="Changes" comment="DD/MM/YYYY-14/11/2025" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +45,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Experiment1.executor": "Run",
+    "Python.Experiment2-Complete.executor": "Run",
     "Python.Expriment2-EditVersion.executor": "Run",
     "Python.Expriment2-Original.executor": "Run",
     "Python.main.executor": "Run",
@@ -105,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1762482844896</updated>
       <workItem from="1762482860819" duration="4099000" />
-      <workItem from="1763086670571" duration="3702000" />
+      <workItem from="1763086670571" duration="4045000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -131,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762484267923</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DD/MM/YYYY-14/11/2025">
+      <option name="closed" value="true" />
+      <created>1763091514677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763091514677</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,9 +138,11 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Completely Program EXP1" />
     <MESSAGE value="Change File Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change File Name" />
+    <MESSAGE value="DD/MM/YYYY-14/11/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="DD/MM/YYYY-14/11/2025" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject$Experiment2_Complete.coverage" NAME="Experiment2-Complete Coverage Results" MODIFIED="1763091245510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
     <SUITE FILE_PATH="coverage/PythonProject$Expriment2_Original.coverage" NAME="Expriment2-Original Coverage Results" MODIFIED="1763090577438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
     <SUITE FILE_PATH="coverage/PythonProject$Expriment2_EditVersion.coverage" NAME="Expriment2-EditVersion Coverage Results" MODIFIED="1763090615450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
     <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1762484193893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

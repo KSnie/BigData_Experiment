@@ -94,7 +94,7 @@ def create_subset(fromlist, tolist):
                 create_subset(list(tt), tolist)
     return None
 
-# --- (4)-(5) สร้าง rule, คำนวณ confidence/lift และเก็บลงตาราง ---
+# --- (4)-(5) สร้าง rule, คำนวณ confidence/lift และเก็บลงตาราง --
 def cal_conf(fre_set, h, support_data, rulelist, min_conf):
     for after in h:
         # conf = support(lk)/support(xm-1);

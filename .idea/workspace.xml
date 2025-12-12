@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c285eeb-315d-43c3-98b7-d5c06bbe7be4" name="Changes" comment="DD/MM/YYYY-14/11/2025" />
+    <list default="true" id="2c285eeb-315d-43c3-98b7-d5c06bbe7be4" name="Changes" comment="TestCommit">
+      <change afterPath="$PROJECT_DIR$/Experiment-3/Experiment-Complete.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment-3/Experiment3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment-3/decision_trees.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment-3/titanic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -46,6 +53,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Experiment1.executor": "Run",
     "Python.Experiment2-Complete.executor": "Run",
+    "Python.Experiment2-EditVersion.executor": "Run",
+    "Python.Experiment2-Original.executor": "Run",
+    "Python.Experiment3.executor": "Run",
     "Python.Expriment2-EditVersion.executor": "Run",
     "Python.Expriment2-Original.executor": "Run",
     "Python.main.executor": "Run",
@@ -56,7 +66,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/kasidischuayprasert/PycharmProjects/PythonProject/Experiment-2",
+    "last_opened_file_path": "/Users/kasidischuayprasert/PycharmProjects/PythonProject/Experiment-3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,11 +78,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Experiment-3" />
       <recent name="$PROJECT_DIR$/Experiment-2" />
       <recent name="$PROJECT_DIR$/Experiment-1/Result" />
       <recent name="$PROJECT_DIR$/Experiment-1/TrainDatabase" />
       <recent name="$PROJECT_DIR$/Experiment-1/TestDatabase" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Experiment-1" />
@@ -81,7 +91,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
         <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
       </set>
     </attachedChunks>
@@ -94,7 +103,11 @@
       <option name="presentableId" value="Default" />
       <updated>1762482844896</updated>
       <workItem from="1762482860819" duration="4099000" />
-      <workItem from="1763086670571" duration="4045000" />
+      <workItem from="1763086670571" duration="4621000" />
+      <workItem from="1763691901880" duration="4223000" />
+      <workItem from="1764050681435" duration="58000" />
+      <workItem from="1764296362518" duration="1679000" />
+      <workItem from="1764901223202" duration="1590000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -128,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763091514677</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DD/MM/YYYY-14/11/2025">
+      <option name="closed" value="true" />
+      <created>1763091575775</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763091575775</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TestCommit">
+      <option name="closed" value="true" />
+      <created>1763091625577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763091625577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,13 +168,16 @@
     <MESSAGE value="Completely Program EXP1" />
     <MESSAGE value="Change File Name" />
     <MESSAGE value="DD/MM/YYYY-14/11/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="DD/MM/YYYY-14/11/2025" />
+    <MESSAGE value="TestCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestCommit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$Experiment2_Complete.coverage" NAME="Experiment2-Complete Coverage Results" MODIFIED="1763091245510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
+    <SUITE FILE_PATH="coverage/PythonProject$Experiment2_EditVersion.coverage" NAME="Experiment2-EditVersion Coverage Results" MODIFIED="1763693682888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
+    <SUITE FILE_PATH="coverage/PythonProject$Experiment2_Complete.coverage" NAME="Experiment2-Complete Coverage Results" MODIFIED="1764903643141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
     <SUITE FILE_PATH="coverage/PythonProject$Expriment2_Original.coverage" NAME="Expriment2-Original Coverage Results" MODIFIED="1763090577438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
+    <SUITE FILE_PATH="coverage/PythonProject$Experiment2_Original.coverage" NAME="Experiment2-Original Coverage Results" MODIFIED="1763693666612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
     <SUITE FILE_PATH="coverage/PythonProject$Expriment2_EditVersion.coverage" NAME="Expriment2-EditVersion Coverage Results" MODIFIED="1763090615450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
     <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1762484193893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$Experiment1.coverage" NAME="Experiment1 Coverage Results" MODIFIED="1763088555608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-1" />
+    <SUITE FILE_PATH="coverage/PythonProject$Experiment1.coverage" NAME="Experiment1 Coverage Results" MODIFIED="1763693601106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-1" />
   </component>
 </project>

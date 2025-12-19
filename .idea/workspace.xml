@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c285eeb-315d-43c3-98b7-d5c06bbe7be4" name="Changes" comment="TestCommit">
-      <change afterPath="$PROJECT_DIR$/Experiment-3/Experiment-Complete.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-3/Experiment3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-3/decision_trees.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment-3/titanic.csv" afterDir="false" />
+    <list default="true" id="2c285eeb-315d-43c3-98b7-d5c06bbe7be4" name="Changes" comment="Complete Experiment-Complete.ipynb">
+      <change afterPath="$PROJECT_DIR$/Experiment-4/Experiment4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment-4/Iris.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment-4/iris.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment-4/iris.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,6 +56,7 @@
     "Python.Experiment2-EditVersion.executor": "Run",
     "Python.Experiment2-Original.executor": "Run",
     "Python.Experiment3.executor": "Run",
+    "Python.Experiment4.executor": "Run",
     "Python.Expriment2-EditVersion.executor": "Run",
     "Python.Expriment2-Original.executor": "Run",
     "Python.main.executor": "Run",
@@ -66,7 +67,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/kasidischuayprasert/PycharmProjects/PythonProject/Experiment-3",
+    "last_opened_file_path": "/Users/kasidischuayprasert/PycharmProjects/PythonProject/Experiment-4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,13 +79,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Experiment-4" />
       <recent name="$PROJECT_DIR$/Experiment-3" />
       <recent name="$PROJECT_DIR$/Experiment-2" />
       <recent name="$PROJECT_DIR$/Experiment-1/Result" />
       <recent name="$PROJECT_DIR$/Experiment-1/TrainDatabase" />
-      <recent name="$PROJECT_DIR$/Experiment-1/TestDatabase" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Experiment-4" />
       <recent name="$PROJECT_DIR$/Experiment-1" />
     </key>
   </component>
@@ -157,11 +159,30 @@
       <option name="project" value="LOCAL" />
       <updated>1763091625577</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Complete Experiment-Complete.ipynb">
+      <option name="closed" value="true" />
+      <created>1765510803825</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765510803825</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
@@ -169,7 +190,8 @@
     <MESSAGE value="Change File Name" />
     <MESSAGE value="DD/MM/YYYY-14/11/2025" />
     <MESSAGE value="TestCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestCommit" />
+    <MESSAGE value="Complete Experiment-Complete.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Experiment-Complete.ipynb" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$Experiment2_EditVersion.coverage" NAME="Experiment2-EditVersion Coverage Results" MODIFIED="1763693682888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Experiment-2" />
